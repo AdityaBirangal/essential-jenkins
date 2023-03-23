@@ -11,9 +11,10 @@ pipeline {
                 // this step is required to make sure the script
                 // can be executed directly in a shell
                 sh('pwd')
-                sh('cd Ch03/03_05-challenge-connect-jenkins-to-github')
+                sh('cd Ch03')
                 sh('pwd')
                 sh('cd 03_05-challenge-connect-jenkins-to-github')
+                                sh('pwd')
                 sh('ls')
                 sh('chmod +x ./algorithm.sh')
             }
